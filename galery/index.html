@@ -1,0 +1,89 @@
+<div id="tab-galery">
+
+
+			<p>
+				<!-- Photo Grid -->
+				<div class="row">
+					<div class="column">
+						<div class="img"><img src="images/015.webp" style="width:100%"></div>
+						<div class="img"><img src="images/002.webp" style="width:100%"></div>
+						<div class="img"><img src="images/016.webp" style="width:100%"></div>
+						<div class="img"><img src="images/003.webp" style="width:100%"></div>
+						<div class="img"><img src="images/007.webp" style="width:100%"></div>
+						<div class="img"><img src="images/009.webp" style="width:100%"></div>
+					</div>
+					<div class="column">
+						<div class="img"><img src="images/001.webp" style="width:100%"></div>
+						<div class="img"><img src="images/005.webp" style="width:100%"></div>
+						<div class="img"><img src="images/012.webp" style="width:100%"></div>
+						<div class="img"><img src="images/008.webp" style="width:100%"></div>
+						<div class="img"><img src="images/014.webp" style="width:100%"></div>
+						<div class="img"><img src="images/006.webp" style="width:100%"></div>
+					</div>  
+					<div class="column">
+						<div class="img"><img src="images/004.webp" style="width:100%"></div>
+						<div class="img"><img src="images/019.webp" style="width:100%"></div>
+						<div class="img"><img src="images/011.webp" style="width:100%"></div>
+						<div class="img"><img src="images/022.webp" style="width:100%"></div>
+					</div>
+					<div class="column">
+						<div class="img"><img src="images/018.webp" style="width:100%"></div>
+						<div class="img"><img src="images/013.webp" style="width:100%"></div>
+						<div class="img"><img src="images/017.webp" style="width:100%"></div>
+						<div class="img"><img src="images/021.webp" style="width:100%"></div>
+					</div>
+				</div>
+			</p>
+
+
+<h2>Modal Example</h2>
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Open Modal</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
+  </div>
+  
+  
+  
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+  
+  
+  
+  
+  
+
+
+</div>

@@ -19,7 +19,9 @@
 	
     <script> 
     $(function(){
-      $("#includedContent").load("galery.html"); 
+      $("#includedHome").load("home/index.html"); 
+      $("#includedGalery").load("galery/index.html"); 
+      $("#includedContact").load("contact/index.html"); 
     });
     </script> 
 	
@@ -81,132 +83,14 @@
 
 	<div id="myTabContent-kv-21" class="tab-content">
 		<div class="tab-pane fade in active" id="home-kv-21">
-			Home Page...
-				<br/><!--
-				<link rel="import" href="galery.html">
-				<div data-include="galery.html"></div>
-				<iframe src="galery.html" seamless></iframe>-->
-
-     <div id="includedContent"></div>
-				
-				
+			<div id="includedHome"></div>
 		</div>
 		<div class="tab-pane fade row" id="galery-kv-21">
-			<p>
-				<!-- Photo Grid -->
-				<div class="row">
-					<div class="column">
-						<div class="img"><img src="images/015.webp" style="width:100%"></div>
-						<div class="img"><img src="images/002.webp" style="width:100%"></div>
-						<div class="img"><img src="images/016.webp" style="width:100%"></div>
-						<div class="img"><img src="images/003.webp" style="width:100%"></div>
-						<div class="img"><img src="images/007.webp" style="width:100%"></div>
-						<div class="img"><img src="images/009.webp" style="width:100%"></div>
-					</div>
-					<div class="column">
-						<div class="img"><img src="images/001.webp" style="width:100%"></div>
-						<div class="img"><img src="images/005.webp" style="width:100%"></div>
-						<div class="img"><img src="images/012.webp" style="width:100%"></div>
-						<div class="img"><img src="images/008.webp" style="width:100%"></div>
-						<div class="img"><img src="images/014.webp" style="width:100%"></div>
-						<div class="img"><img src="images/006.webp" style="width:100%"></div>
-					</div>  
-					<div class="column">
-						<div class="img"><img src="images/004.webp" style="width:100%"></div>
-						<div class="img"><img src="images/019.webp" style="width:100%"></div>
-						<div class="img"><img src="images/011.webp" style="width:100%"></div>
-						<div class="img"><img src="images/022.webp" style="width:100%"></div>
-					</div>
-					<div class="column">
-						<div class="img"><img src="images/018.webp" style="width:100%"></div>
-						<div class="img"><img src="images/013.webp" style="width:100%"></div>
-						<div class="img"><img src="images/017.webp" style="width:100%"></div>
-						<div class="img"><img src="images/021.webp" style="width:100%"></div>
-					</div>
-				</div>
-			</p>
-
-
-<h2>Modal Example</h2>
-
-<!-- Trigger/Open The Modal -->
-<button id="myBtn">Open Modal</button>
-
-<!-- The Modal -->
-<div id="myModal" class="modal">
-
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <p>Some text in the Modal..</p>
-  </div>
-  
-  
-  
-<script>
-// Get the modal
-var modal = document.getElementById("myModal");
-
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-</script>
-  
-  
-  
-  
-  
-
-</div>
-
-
+			<div id="includedGalery"></div>
+		</div>
 		</div>
 		<div class="tab-pane fade" id="contact-kv-21">
-			<p>
-				<div class="iframe-outline">
-					<div class="iframe-container">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2797.5846538332494!2d-75.51774138409529!3d45.478170179101056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce117c599f1bf1%3A0x6860dffe659352a3!2sOttawa%20Heating%20%26%20Cooling%20Ltd!5e0!3m2!1sen!2sca!4v1593897777911!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-					</div>
-				</div>
-				<div>
-					<h2>
-						Where to Find Us
-					</h2> 
-					911 Borland Drive, Orleans Ottawa, ON K1E 1X4, Canada
-				</div> 
-				<div> 
-					<h3>
-						Business Hours
-					</h3> 
-					<dl> 
-						<dt>
-							Mon - Sun
-						</dt> 
-						<dd>
-							Open 24 Hours
-						</dd> 
-					</dl> 
-				</div> 
-			</p>
+			<div id="includedContact"></div>
 		</div>
 
 
