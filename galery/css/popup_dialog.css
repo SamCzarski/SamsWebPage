@@ -34,7 +34,7 @@
 
 .slideshow-popup-close:hover,
 .slideshow-popup-close:focus {
-	color: #000;
+	color: white;
 	text-decoration: none;
 	cursor: pointer;
 }
