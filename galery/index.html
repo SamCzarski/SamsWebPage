@@ -4,6 +4,7 @@
 
 
 
+
 <link href="./galery/css/image_galery.css" rel="stylesheet">
 <link href="./galery/css/image_pop.css" rel="stylesheet">
 <link href="./galery/css/popup_dialog.css" rel="stylesheet">
@@ -21,28 +22,28 @@
 				<div class="pop-img" onclick="showGalery(2)"><img src="images/002.webp" style="width:100%"></div>
 				<div class="pop-img" onclick="showGalery(3)"><img src="images/016.webp" style="width:100%"></div>
 				<div class="pop-img" onclick="showGalery(4)"><img src="images/003.webp" style="width:100%"></div>
-				<div class="pop-img" onclick="showGalery(1)"><img src="images/007.webp" style="width:100%"></div>
-				<div class="pop-img" onclick="showGalery(1)"><img src="images/009.webp" style="width:100%"></div>
+				<div class="pop-img" onclick="showGalery(5)"><img src="images/007.webp" style="width:100%"></div>
+				<div class="pop-img" onclick="showGalery(6)"><img src="images/009.webp" style="width:100%"></div>
 			</div>
 			<div class="column">
-				<div class="pop-img" onclick="showGalery(1)"><img src="images/001.webp" style="width:100%"></div>
-				<div class="pop-img" onclick="showGalery(1)"><img src="images/005.webp" style="width:100%"></div>
-				<div class="pop-img" onclick="showGalery(1)"><img src="images/012.webp" style="width:100%"></div>
-				<div class="pop-img" onclick="showGalery(1)"><img src="images/008.webp" style="width:100%"></div>
-				<div class="pop-img" onclick="showGalery(1)"><img src="images/014.webp" style="width:100%"></div>
-				<div class="pop-img" onclick="showGalery(1)"><img src="images/006.webp" style="width:100%"></div>
+				<div class="pop-img" onclick="showGalery(7)"><img src="images/001.webp" style="width:100%"></div>
+				<div class="pop-img" onclick="showGalery(8)"><img src="images/005.webp" style="width:100%"></div>
+				<div class="pop-img" onclick="showGalery(9)"><img src="images/012.webp" style="width:100%"></div>
+				<div class="pop-img" onclick="showGalery(10)"><img src="images/008.webp" style="width:100%"></div>
+				<div class="pop-img" onclick="showGalery(11)"><img src="images/014.webp" style="width:100%"></div>
+				<div class="pop-img" onclick="showGalery(12)"><img src="images/006.webp" style="width:100%"></div>
 			</div>  
 			<div class="column">
-				<div class="pop-img" onclick="showGalery(1)"><img src="images/004.webp" style="width:100%"></div>
-				<div class="pop-img" onclick="showGalery(1)"><img src="images/019.webp" style="width:100%"></div>
-				<div class="pop-img" onclick="showGalery(1)"><img src="images/011.webp" style="width:100%"></div>
-				<div class="pop-img" onclick="showGalery(1)"><img src="images/022.webp" style="width:100%"></div>
+				<div class="pop-img" onclick="showGalery(13)"><img src="images/004.webp" style="width:100%"></div>
+				<div class="pop-img" onclick="showGalery(14)"><img src="images/019.webp" style="width:100%"></div>
+				<div class="pop-img" onclick="showGalery(15)"><img src="images/011.webp" style="width:100%"></div>
+				<div class="pop-img" onclick="showGalery(16)"><img src="images/022.webp" style="width:100%"></div>
 			</div>
 			<div class="column">
-				<div class="pop-img" onclick="showGalery(1)"><img src="images/018.webp" style="width:100%"></div>
-				<div class="pop-img" onclick="showGalery(1)"><img src="images/013.webp" style="width:100%"></div>
-				<div class="pop-img" onclick="showGalery(1)"><img src="images/017.webp" style="width:100%"></div>
-				<div class="pop-img" onclick="showGalery(1)"><img src="images/021.webp" style="width:100%"></div>
+				<div class="pop-img" onclick="showGalery(17)"><img src="images/018.webp" style="width:100%"></div>
+				<div class="pop-img" onclick="showGalery(18)"><img src="images/013.webp" style="width:100%"></div>
+				<div class="pop-img" onclick="showGalery(19)"><img src="images/017.webp" style="width:100%"></div>
+				<div class="pop-img" onclick="showGalery(20)"><img src="images/021.webp" style="width:100%"></div>
 			</div>
 		</div>
 	</p>
@@ -56,20 +57,30 @@
 		<!-- Modal content -->
 		<div class="slideshow-popup-modal-content">
 
-			<span class="slideshow-popup-close" onclick="closeGalery()">&times;</span>
+			<!-- <span class="slideshow-popup-close" onclick="closeGalery()">&times;</span> -->
 
 			<div class="slideshow-container">
 
 				<div class="slideshow-slides slideshow-fade">
-					<div class="slideshow-numbertext">1 / 20</div>
+					<div class="slideshow-top-overlay">
+						<div class="slideshow-top-overlay-content">
+							<div class="slideshow-numbertext">1 / 20</div>
+							<span class="slideshow-popup-close slideshow-top-overlay-left" onclick="closeGalery()">&times;</span>
+						</div>
+					</div>
 					<div class="slide-content-cradle">
 						<img class="slide-image" src="images/015.webp">
 					</div>
 					<!-- <div class="caption-text">Caption Text</div> -->
 				</div>
 
-					<div class="slideshow-slides slideshow-fade">
-					<div class="slideshow-numbertext">2 / 20</div>
+				<div class="slideshow-slides slideshow-fade">
+					<div class="slideshow-top-overlay">
+						<div class="slideshow-top-overlay-content">
+							<div class="slideshow-numbertext">2 / 20</div>
+							<span class="slideshow-popup-close slideshow-top-overlay-left" onclick="closeGalery()">&times;</span>
+						</div>
+					</div>
 					<div class="slide-content-cradle">
 						<img class="slide-image" src="images/002.webp">
 					</div>
@@ -77,7 +88,12 @@
 				</div>
 
 				<div class="slideshow-slides slideshow-fade">
-					<div class="slideshow-numbertext">3 / 20</div>
+					<div class="slideshow-top-overlay">
+						<div class="slideshow-top-overlay-content">
+							<div class="slideshow-numbertext">3 / 20</div>
+							<span class="slideshow-popup-close slideshow-top-overlay-left" onclick="closeGalery()">&times;</span>
+						</div>
+					</div>
 					<div class="slide-content-cradle">
 						<img class="slide-image" src="images/016.webp">
 					</div>
@@ -85,7 +101,12 @@
 				</div>
 
 				<div class="slideshow-slides slideshow-fade">
-					<div class="slideshow-numbertext">4 / 20</div>
+					<div class="slideshow-top-overlay">
+						<div class="slideshow-top-overlay-content">
+							<div class="slideshow-numbertext">4 / 20</div>
+							<span class="slideshow-popup-close slideshow-top-overlay-left" onclick="closeGalery()">&times;</span>
+						</div>
+					</div>
 					<div class="slide-content-cradle">
 						<img class="slide-image" src="images/003.webp">
 					</div>
@@ -93,7 +114,12 @@
 				</div>
 
 				<div class="slideshow-slides slideshow-fade">
-					<div class="slideshow-numbertext">5 / 20</div>
+					<div class="slideshow-top-overlay">
+						<div class="slideshow-top-overlay-content">
+							<div class="slideshow-numbertext">5 / 20</div>
+							<span class="slideshow-popup-close slideshow-top-overlay-left" onclick="closeGalery()">&times;</span>
+						</div>
+					</div>
 					<div class="slide-content-cradle">
 						<img class="slide-image" src="images/007.webp">
 					</div>
@@ -101,7 +127,12 @@
 				</div>
 
 				<div class="slideshow-slides slideshow-fade">
-					<div class="slideshow-numbertext">6 / 20</div>
+					<div class="slideshow-top-overlay">
+						<div class="slideshow-top-overlay-content">
+							<div class="slideshow-numbertext">6 / 20</div>
+							<span class="slideshow-popup-close slideshow-top-overlay-left" onclick="closeGalery()">&times;</span>
+						</div>
+					</div>
 					<div class="slide-content-cradle">
 						<img class="slide-image" src="images/009.webp">
 					</div>
@@ -109,7 +140,12 @@
 				</div>
 
 				<div class="slideshow-slides slideshow-fade">
-					<div class="slideshow-numbertext">7 / 20</div>
+					<div class="slideshow-top-overlay">
+						<div class="slideshow-top-overlay-content">
+							<div class="slideshow-numbertext">7 / 20</div>
+							<span class="slideshow-popup-close slideshow-top-overlay-left" onclick="closeGalery()">&times;</span>
+						</div>
+					</div>
 					<div class="slide-content-cradle">
 						<img class="slide-image" src="images/001.webp">
 					</div>
@@ -117,7 +153,12 @@
 				</div>
 
 				<div class="slideshow-slides slideshow-fade">
-					<div class="slideshow-numbertext">8 / 20</div>
+					<div class="slideshow-top-overlay">
+						<div class="slideshow-top-overlay-content">
+							<div class="slideshow-numbertext">8 / 20</div>
+							<span class="slideshow-popup-close slideshow-top-overlay-left" onclick="closeGalery()">&times;</span>
+						</div>
+					</div>
 					<div class="slide-content-cradle">
 						<img class="slide-image" src="images/005.webp">
 					</div>
@@ -125,7 +166,12 @@
 				</div>
 
 				<div class="slideshow-slides slideshow-fade">
-					<div class="slideshow-numbertext">9 / 20</div>
+					<div class="slideshow-top-overlay">
+						<div class="slideshow-top-overlay-content">
+							<div class="slideshow-numbertext">9 / 20</div>
+							<span class="slideshow-popup-close slideshow-top-overlay-left" onclick="closeGalery()">&times;</span>
+						</div>
+					</div>
 					<div class="slide-content-cradle">
 						<img class="slide-image" src="images/012.webp">
 					</div>
@@ -133,7 +179,12 @@
 				</div>
 
 				<div class="slideshow-slides slideshow-fade">
-					<div class="slideshow-numbertext">10 / 20</div>
+					<div class="slideshow-top-overlay">
+						<div class="slideshow-top-overlay-content">
+							<div class="slideshow-numbertext">10 / 20</div>
+							<span class="slideshow-popup-close slideshow-top-overlay-left" onclick="closeGalery()">&times;</span>
+						</div>
+					</div>
 					<div class="slide-content-cradle">
 						<img class="slide-image" src="images/008.webp">
 					</div>
@@ -141,7 +192,12 @@
 				</div>
 
 				<div class="slideshow-slides slideshow-fade">
-					<div class="slideshow-numbertext">11 / 20</div>
+					<div class="slideshow-top-overlay">
+						<div class="slideshow-top-overlay-content">
+							<div class="slideshow-numbertext">11 / 20</div>
+							<span class="slideshow-popup-close slideshow-top-overlay-left" onclick="closeGalery()">&times;</span>
+						</div>
+					</div>
 					<div class="slide-content-cradle">
 						<img class="slide-image" src="images/014.webp">
 					</div>
@@ -149,7 +205,12 @@
 				</div>
 
 				<div class="slideshow-slides slideshow-fade">
-					<div class="slideshow-numbertext">12 / 20</div>
+					<div class="slideshow-top-overlay">
+						<div class="slideshow-top-overlay-content">
+							<div class="slideshow-numbertext">12 / 20</div>
+							<span class="slideshow-popup-close slideshow-top-overlay-left" onclick="closeGalery()">&times;</span>
+						</div>
+					</div>
 					<div class="slide-content-cradle">
 						<img class="slide-image" src="images/006.webp">
 					</div>
@@ -157,7 +218,12 @@
 				</div>
 
 				<div class="slideshow-slides slideshow-fade">
-					<div class="slideshow-numbertext">13 / 20</div>
+					<div class="slideshow-top-overlay">
+						<div class="slideshow-top-overlay-content">
+							<div class="slideshow-numbertext">13 / 20</div>
+							<span class="slideshow-popup-close slideshow-top-overlay-left" onclick="closeGalery()">&times;</span>
+						</div>
+					</div>
 					<div class="slide-content-cradle">
 						<img class="slide-image" src="images/004.webp">
 					</div>
@@ -165,7 +231,12 @@
 				</div>
 
 				<div class="slideshow-slides slideshow-fade">
-					<div class="slideshow-numbertext">14 / 20</div>
+					<div class="slideshow-top-overlay">
+						<div class="slideshow-top-overlay-content">
+							<div class="slideshow-numbertext">14 / 20</div>
+							<span class="slideshow-popup-close slideshow-top-overlay-left" onclick="closeGalery()">&times;</span>
+						</div>
+					</div>
 					<div class="slide-content-cradle">
 						<img class="slide-image" src="images/019.webp">
 					</div>
@@ -173,7 +244,12 @@
 				</div>
 
 				<div class="slideshow-slides slideshow-fade">
-					<div class="slideshow-numbertext">15 / 20</div>
+					<div class="slideshow-top-overlay">
+						<div class="slideshow-top-overlay-content">
+							<div class="slideshow-numbertext">15 / 20</div>
+							<span class="slideshow-popup-close slideshow-top-overlay-left" onclick="closeGalery()">&times;</span>
+						</div>
+					</div>
 					<div class="slide-content-cradle">
 						<img class="slide-image" src="images/011.webp">
 					</div>
@@ -181,7 +257,12 @@
 				</div>
 
 				<div class="slideshow-slides slideshow-fade">
-					<div class="slideshow-numbertext">16 / 20</div>
+					<div class="slideshow-top-overlay">
+						<div class="slideshow-top-overlay-content">
+							<div class="slideshow-numbertext">16 / 20</div>
+							<span class="slideshow-popup-close slideshow-top-overlay-left" onclick="closeGalery()">&times;</span>
+						</div>
+					</div>
 					<div class="slide-content-cradle">
 						<img class="slide-image" src="images/022.webp">
 					</div>
@@ -189,7 +270,12 @@
 				</div>
 
 				<div class="slideshow-slides slideshow-fade">
-					<div class="slideshow-numbertext">17 / 20</div>
+					<div class="slideshow-top-overlay">
+						<div class="slideshow-top-overlay-content">
+							<div class="slideshow-numbertext">17 / 20</div>
+							<span class="slideshow-popup-close slideshow-top-overlay-left" onclick="closeGalery()">&times;</span>
+						</div>
+					</div>
 					<div class="slide-content-cradle">
 						<img class="slide-image" src="images/018.webp">
 					</div>
@@ -197,7 +283,12 @@
 				</div>
 
 				<div class="slideshow-slides slideshow-fade">
-					<div class="slideshow-numbertext">18 / 20</div>
+					<div class="slideshow-top-overlay">
+						<div class="slideshow-top-overlay-content">
+							<div class="slideshow-numbertext">18 / 20</div>
+							<span class="slideshow-popup-close slideshow-top-overlay-left" onclick="closeGalery()">&times;</span>
+						</div>
+					</div>
 					<div class="slide-content-cradle">
 						<img class="slide-image" src="images/013.webp">
 					</div>
@@ -205,7 +296,12 @@
 				</div>
 
 				<div class="slideshow-slides slideshow-fade">
-					<div class="slideshow-numbertext">19 / 20</div>
+					<div class="slideshow-top-overlay">
+						<div class="slideshow-top-overlay-content">
+							<div class="slideshow-numbertext">19 / 20</div>
+							<span class="slideshow-popup-close slideshow-top-overlay-left" onclick="closeGalery()">&times;</span>
+						</div>
+					</div>
 					<div class="slide-content-cradle">
 						<img class="slide-image" src="images/017.webp">
 					</div>
@@ -213,7 +309,12 @@
 				</div>
 
 				<div class="slideshow-slides slideshow-fade">
-					<div class="slideshow-numbertext">20 / 20</div>
+					<div class="slideshow-top-overlay">
+						<div class="slideshow-top-overlay-content">
+							<div class="slideshow-numbertext">20 / 20</div>
+							<span class="slideshow-popup-close slideshow-top-overlay-left" onclick="closeGalery()">&times;</span>
+						</div>
+					</div>
 					<div class="slide-content-cradle">
 						<img class="slide-image" src="images/021.webp">
 					</div>
@@ -303,7 +404,7 @@
 		function currentSlide(n) {
 			showSlides(slideIndex = n);
 		}
-
+		
 		function showSlides(n) {
 			var i;
 			var slides = document.getElementsByClassName("slideshow-slides");
@@ -326,7 +427,7 @@
 	</script>
 	
 </div>
-
+</div>
 
 		
 

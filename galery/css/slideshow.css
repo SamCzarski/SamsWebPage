@@ -79,14 +79,30 @@ img {vertical-align: middle;}
 	text-align: center;
 }
 
+.slideshow-top-overlay {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	
+}
+
+.slideshow-top-overlay-content{
+    display: flex;
+}
+
 /* Number text (1/3 etc) */
 .slideshow-numbertext {
 	color: #f2f2f2;
 	font-size: 12px;
 	padding: 8px 12px;
-	position: absolute;
-	top: 0;
 }
+
+.slideshow-top-overlay-left {
+    margin-left: auto
+}
+
+
+
 
 /* The dots/bullets/indicators */
 .dot-slide {
